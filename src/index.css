@@ -1,0 +1,59 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Outfit', sans-serif;
+} */
+/* @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Lexend', sans-serif;
+} */
+ /* @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Epilogue', sans-serif;
+} */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;800&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+body {
+  font-family: 'Space Grotesk', sans-serif;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Orbitron', sans-serif;
+} */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+@keyframes scrollArticles {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.article-track {
+  display: flex;
+  width: max-content;
+  animation: scrollArticles 30s linear infinite;
+}
+
+.article-track:hover {
+  animation-play-state: paused;
+}
+
+@import "tailwindcss";
+/* index.css ya App.css ke bilkul top par */
+
